@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), view.class);
+                Intent i = new Intent(getApplicationContext(), vieww.class);
                 startActivity(i);
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), view.class);
+                Intent i = new Intent(getApplicationContext(), vieww.class);
                 startActivity(i);
             }
         });
